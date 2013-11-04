@@ -19,7 +19,7 @@ module.exports = function anchornate(text) {
         text = text.slice(results.index + resultURL.length);
     }
 
-    text && createTextNode(text);
+    text && fragment.appendChild(createTextNode(text));
 
     return fragment;
 }
