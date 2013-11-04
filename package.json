@@ -1,11 +1,8 @@
 {
-  "name": "linkify",
+  "name": "anchornate",
   "version": "0.0.1",
-  "description": "",
+  "description": "converst urls to anchors",
   "main": "linkify.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "BSD",
   "dependencies": {

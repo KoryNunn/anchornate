@@ -2,7 +2,7 @@ var crel = require('crel');
 
 var createTextNode = document.createTextNode.bind(document);
 
-module.exports = function linkify(text) {
+module.exports = function anchornate(text) {
     var fragment = document.createDocumentFragment(),
         exp = /(\b\w+?:\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/i;
 
